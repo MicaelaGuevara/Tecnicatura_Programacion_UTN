@@ -122,7 +122,7 @@ git checkout master       # Vuelve a la rama principal
 
 ---
 
-## 📅 CLASE 7 - `git reset` vs. `git rm`
+## 📅 CLASE 7 - Portafolio 1 
 
 ### 🔁 `git reset`
 - `--soft`: mantiene cambios en staging
