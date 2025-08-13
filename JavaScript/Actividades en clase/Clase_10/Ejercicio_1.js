@@ -1,4 +1,4 @@
-let mes = 5;
+let mes = 10;
 let estacion;
 if(mes == 1 || mes == 2 || mes == 12){
     estacion = "Verano";

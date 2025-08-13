@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Micaela Guevara</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <canvas id="stars"></canvas>
+  <canvas id="fireflies"></canvas>
+  <canvas id="orbitCanvas"></canvas>
+  <canvas id="starRain"></canvas>
+
+  <article id="text-container">Cargando</article>
+  <article id="welcome-text">Bienvenidos</article>
+  <article id="magic-orb"></article>
+
+  <article id="contenido">
+    <article id="fireflyContainer"></article>
+
+    <nav>
+      <article class="logo">MMG</article>
+      <article class="hamburger" id="hamburger">
+        &#9776;
+      </article>
+      <ul id="nav-links">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#lenguaje" class="nav-link">Lenguaje</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyecto</a></li>
+        <li><a href="#formulario" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="inicio">
+      <h1 class="glow-text">Micaela Guevara</h1>
+      <p class="subtitle-hero">Soy una desarrolladora web con pasión por crear experiencias interactivas y visuales que combinan pequeñas dosis de arte con precisión y técnica</p>
+      <article class="hero-buttons">
+        <a href="mailto:mika.m.guevara.19.20@gmail.com" class="boton-magico">
+          <i class="fas fa-envelope"></i> 
+        </a>
+        <a href="https://github.com/MicaelaGuevara" class="boton-magico" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" class="boton-magico" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </article>
+    </section>
+
+    <section id="lenguaje" class="section lenguajes">
+      <i class="fab fa-html5" title="HTML"></i>
+      <i class="fab fa-css3-alt" title="CSS"></i>
+      <i class="fab fa-js-square" title="JavaScript"></i>
+      <i class="fab fa-python" title="Python"></i>
+      <i class="fab fa-java" title="Java"></i>
+    </section>
+
+    <section id="proyectos" class="seccion-proyectos">
+      <article class="fondo-camino-magico"></article>
+      <article class="contenedor-proyectos">
+        <h2 class="titulo-proyectos">Mis Proyectos</h2>
+        <article class="lista-proyectos">
+          <article class="carta-proyecto">
+            <h3>✨ Calculadora del amor</h3>
+            <p>Descubrí qué tan compatible sos con tu persona especial.</p>
+          </article>
+        </article>
+      </article>
+    </section>
+
+    <section id="formulario" class="seccion-formulario">
+      <article class="contenedor-formulario">
+        <article class="borde-magico"></article>
+        <h2 class="titulo-formulario">📩 Contactame</h2>
+        <form id="contactForm">
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
+          <input type="email" name="email" placeholder="Tu correo electrónico" required />
+          <textarea name="mensaje" rows="5" placeholder="Tu mensaje..." required></textarea>
+          <button type="submit"><span class="texto-btn">Enviar</span></button>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <span>&copy; 2025 <strong>Micaela Guevara</strong>. Todos los derechos reservados.</span>
+    </footer>
+    <button id="menu-btn" aria-label="Reproducir música" title="Reproducir música">
+      <i class="fas fa-music"></i>
+    </button>
+    <audio id="menu-audio" src="./assets/audio.mp3" preload="auto"></audio>
+    <img src="./assets/slider1.png" alt="Fondo ilustrado de ciervos" class="slider" />
+  </article>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
